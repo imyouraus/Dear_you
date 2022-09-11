@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai&family=Prompt:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@300&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+	outline:0;
+}
+.container{
+	height: 100vh;
+	width: 100vw;
+	text-align:center;
+	color:rgb(255, 255, 255);
+	background: rgb(250, 208, 215);
+
+}
+.love,.yes,.no{
+	padding-top: 15%;
+		
+}
+.love span{
+	color:rgb(255, 123, 178);
+}
+
+h3{
+	font-family: 'Mitr', sans-serif;
+ }
+
+
+h2{
+	font-size: 72px;margin-bottom: 20px;
+    font-family: 'Mitr', sans-serif;
+}
+.container .yes p{
+	font-family: 'Prompt';
+    font-size: 1.5rem;	
+}
+a{
+	font-size: 24px;text-decoration: none;
+	padding: 5px 10px;
+	margin-top: 20px;border:3px solid #ddd; 
+	border-radius: 10px;
+}
+#yes{
+	color:rgb(144, 198, 96);
+	background: #eee;}
+
+.yes img{
+	height: 30px;
+	width: 30px;
+	animation: image 4s linear infinite;
+}
+@keyframes image{
+	0%{transform: scale(.5);}
+	50%{transform: scale(1.5);}
+	100%{transform: scale(.5);}
+}
+
+@media (max-width: 450px) {
+	html {
+	  font-size: 50%;
+	}
+
+	h3{
+		font-size: 3.5rem
+	}
+	h2{
+		font-size: 3.5rem
+	}
+
+    p{
+		font-size: 3.5rem
+	}
+}
